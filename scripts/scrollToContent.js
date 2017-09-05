@@ -1,7 +1,5 @@
-$("#moreContentButton").click(function() {
-    alert("Klik!");
-    
+$(document).on("click", "#moreContentButton", function() {
     $('html, body').animate({
         scrollTop: $("#moreContent").offset().top
-    }, 2000);
+    }, 1200);
 });
