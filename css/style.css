@@ -14,16 +14,13 @@ body {
     width: 100%;
 }
 
-#headerContainer>a {
+#moreContentButton {
     position: absolute;
-    width: 100%;
     bottom: 0;
-}
-
-#headerContainer>a>div {
-    background-color: blue; 
+    left: 0;
+    right: 0;
+    margin: auto; 
     height: 60px;
     width: 60px;
-    margin: auto;
-    bottom: 0px;
+    background-color: blue;
 }
