@@ -16,11 +16,12 @@ body {
 
 #moreContentButton {
     position: absolute;
-    bottom: 0;
+    bottom: 20px;
     left: 0;
     right: 0;
     margin: auto; 
     height: 60px;
     width: 60px;
-    background-color: blue;
+    background-image: url("../images/DownIcon.svg");
+    cursor: pointer;
 }
