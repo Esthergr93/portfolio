@@ -7,11 +7,10 @@ body {
     height: 100vh;
     width: 100vw;
     position: relative;
-}
 
-#headerContainer>img {
-    height: 100%;
-    width: 100%;
+    background-image: url("../images/beesten.JPG");
+    background-size: cover;
+    background-position: center;
 }
 
 #moreContentButton {
@@ -23,5 +22,21 @@ body {
     height: 60px;
     width: 60px;
     background-image: url("../images/DownIcon.svg");
+}
+
+#nameContainer {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+#nameContainer>div {
+    display:table-cell;
+    vertical-align: middle;
+    width:100%;
+    height:100%
+}
+
+.clickable {
     cursor: pointer;
 }
