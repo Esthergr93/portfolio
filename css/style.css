@@ -8,7 +8,7 @@ body {
     width: 100vw;
     position: relative;
 
-    background-image: url("../images/beesten.JPG");
+    background-image: url("../images/landscape.JPG");
     background-size: cover;
     background-position: center;
 }
@@ -22,7 +22,7 @@ body {
     height: 90px;
     width: 90px;
 
-    background-image: url("../images/DownIcon.PNG");
+    background-image: url("../images/DownIconWhite.PNG");
     background-size: cover;
     background-position: center;
 }
