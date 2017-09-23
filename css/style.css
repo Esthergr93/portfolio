@@ -27,12 +27,16 @@ body {
     background-position: center;
 }
 
-#nameContainer {
+.center {
     position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+}
+
+#nameContainer {
     width: 100%;
     height: 100%;
-    top: 0;
-    left: 0;
 
     background: -webkit-radial-gradient(rgba(105, 105, 100, 0.04), rgba(0, 0, 0, 0.50));
     background:      -o-radial-gradient(rgba(105, 105, 100, 0.04), rgba(0, 0, 0, 0.50));
@@ -56,6 +60,11 @@ body {
     font-family:"Impact";
     color: white;
     text-shadow: 5px 5px black;
+}
+
+h5 {
+    text-align: center;
+    margin-top: 20px !important;
 }
 
 h2 {
