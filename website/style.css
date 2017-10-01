@@ -37,7 +37,7 @@ img {
 
 .centerContainer {
     position: relative;
-    min-height: 20px;
+    min-height: 23px;
 }
 
 .centerContainer>div,
@@ -133,11 +133,11 @@ h4 {
 
 #email {
     width: 231px;
-    
 }
 
 .contactButtons {
     width: 109px;
+    padding: 10px 0;
 }
 
 .contactButtons>a {
