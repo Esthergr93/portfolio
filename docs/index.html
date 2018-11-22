@@ -2,13 +2,90 @@
 <html>
     <head>
         <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
         
         <title>Esther Greveling</title>
+
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="bootstrap.min.css">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <script type="text/javascript" src="scripts/jquery-3.2.1.min.js"></script>
+        <script type="text/javascript" src="scripts/scrollToContent.js"></script>
     </head>
 
     <body>
-        <div>
-            <h1>Hoi!</h1>
+        <div id="headerContainer" class="centerContainer">
+            <div id="nameContainer">
+                <div>
+                    <h2>Esther Greveling</h2>
+                    <h4>Student UX-design</h4>
+                </div>
+            </div>
+            <div id="moreContentButton" class="clickable"></div>
+        </div>
+        <div id="content" class="col-10 col-md-8 col-lg-6 col-xl-5 center">
+            <!--Over mij-->
+            <h5>Wie ben ik?</h5>
+            <div>
+                <div class="roundPictureBorder">
+                    <div class="roundPicture" id="estherPicture"> </div>
+                </div>
+            </div>
+
+            <p>Hoi! Ik ben Esther Greveling, 24 jaar en ik studeer Interaction Design aan de HAN in Arnhem.</p>
+            <p>Voor de mensen die mij niet kennen, ik ben soms wat druk, maar wel vol met enthousiasme. Ik werk graag in teamverband en ik wil graag het team motiveren. Ik ben resultaat gericht, maar dit mag niet ten koste gaan van de sfeer.</p>
+            <p>Naast mijn studie heb ik ook een aantal hobby's. Ik ben gek op fotograferen, met name natuur en dieren. Daarnaast rij ik paard. Ik vind het heerlijk om even mijn hoofd leeg te maken en buiten te zijn.</p>
+
+            <!--Mijn projecten-->
+            <h5>Wat doe ik?</h5>
+            
+            <!--Funda-->
+            <div class="centerChildren">
+                <h6>Project Funda</h6>
+                <img src="images/funda/checklist-live-bezichtigingen.png" />
+            </div>
+            <p>Funda wilde de bezichteraars helpen bij het bezichtigen van een huis. Bezichteraars zien veel huizen en kunnen vaak maar één keer bezichtigen. De vraag van Funda was hoe de bezichteraars de bezichtigingen beter kunnen onthouden?</p>
+            <p>De oplossing die wij hebben bedacht was de app 'pocket ondersteuning'. Dit is een interactieve app waarin de bezichteraar de belangrijkste punten in kan voeren en wat zij als checklist bij de bezichtiging kunnen houden. <br/>Naast de checklist kan de bezichteraar de huizen vergelijken op plus en minpunten van het huis. Op deze manier kan de bezichteraar de huizen nog helder voor de geest halen en vergelijken.</p>                        
+            
+            <!--Tivoli-->
+            <div class="centerChildren">
+                <h6>Ticketmatch</h6>
+                <div>
+                    <img style="width: 31%;" src="images/tivoli/bevestig-account.png" />
+                    <img style="width: 31%; margin-left: 2.4%; margin-right: 2.4%;" src="images/tivoli/gekozen-profiel.png" />
+                    <img style="width: 31%;" src="images/tivoli/selfie.png" />
+                </div>
+            </div>
+            <p>Tivoli Vredenburg te Utrecht gaf aan dat zij het voor mensen uit het buitengebied aantrekkelijker willen maken om concerten te bezoeken. Dit houdt in dat zij een groter bereik willen hebben dan allen Utrecht en omstreken. De vraag die zij aan ons stelden was: "Hoe kunnen mensen uit het buitengebied meer betrokken worden".</p>
+            <p>De oplossing die wij hebben bedacht was de app Ticketmatch. Deze app zorgt er voor dat mensen die naar het zelfde concert gaan samen kunnen reizen. De bezoekers kunnen zelf aangeven of zij vervoer zoeken, vervoer aanbieden of dat zij vol zitten. Zo hoeft niemand alleen te reizen.</p>
+            
+            <!--Follow-->
+            <div class="centerChildren">
+                <h6>Follow</h6>
+                <img src="images/follow/app.png" />
+            </div>
+            <p>Voor  een zorginstelling kregen wij de opdracht om de mantelzorgers te ontlasten bij de zorg voor hun ouder. In deze casus ging het vooral om de bezoeken naar de huisarts.<br/>De vraag aan ons was of wij een dienst konden ontwerpen, door middel van een applicatie, om met een (vaste) taxichauffeur de ouder naar de huisarts te brengen. Deze taxichauffeurs zijn studenten.</p>
+            <p>De oplossing die wij hebben bedacht, was een applicatie waar de ouder een taak in het huishouden uit kan besteden aan de student. Als de ouder dit niet zelf kan, kan de ouder hulp vragen aan de mantelzorger.<br/>De ouder kan zelf aangeven welke taak er moet gebeuren en op welke dag en tijdstip dit moet gebeuren. Ook kan de ouder zelf kiezen welke student er mee gaat.<br/>Via een GPS-tracker kan de mantelzorger de ouder volgen via zijn of haar telefoon of tablet. Zo heeft de mantelzorger wel de zekerheid, maar niet meer de lasten.</p>
+            
+            
+            <h5>Neem contact op!</h5>
+            <div class="centerContainer">
+                <i id="email" class="fa fa-envelope center" aria-hidden="true">
+                    <span>esther.greveling2@gmail.com</span>
+                </i>
+            </div>
+            <div class="centerContainer">
+                <i id="phone" class="fa fa-phone center" aria-hidden="true">
+                    <span>+31 6 20 34 90 80</span>
+                </i>
+            </div>
+            <div class="centerContainer">
+                <div class="contactButtons">
+                    <a href="https://www.linkedin.com/in/esther-greveling-13b2b231/" target="_blank">
+                        <img style="width: 50px; height: 50px;" src="images/linkedin.svg" alt="LinkedIn">
+                    </a>
+                </div>
+            </div>
         </div>
     </body>
-</html> 
+</html>
